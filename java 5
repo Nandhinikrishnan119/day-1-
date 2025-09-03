@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
+         System.out.printf("%05d \n %5d", firstNumber );
+    }
+}
+output:
+20
+00020
